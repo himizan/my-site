@@ -1,0 +1,61 @@
+body{
+  margin: 1%;
+  font-family: 'Fira Code', monospace; ;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 40;
+}
+.orange-highlight{
+  color: brown;
+}
+section{
+  height: 700px;
+}
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img{
+ width: 100%; 
+}
+.link-button{
+ text-decoration: none;
+ background-image: linear-gradient(45 deg lightsalmon, tomato); 
+ background-color: orange;
+ padding: 10px 20px;
+ border-radius: 5px;
+ color: azure;
+ font-weight: 700;
+}
+.top-banner{
+  background-image: url(images/developer-portfolio/top-banner.png);
+  background-repeat: no-repeat;
+}
+.experience-area{
+
+}
+.dream-area{
+background-image: url(images/developer-portfolio/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+.single-experience{
+  box-shadow: 10px 10px 40px;
+  border-radius: 5px;
+  height: 80%;
+}
+#good-husband{
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon,tomato);
+  border-image-slice: 1;
+}
+#new-experience{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue,cyan);
+  border-image-slice: 1;
+}
